@@ -170,3 +170,65 @@ body {
   position: absolute;
   bottom: 25px;
 }
+
+/* landing */
+
+.landing-wrapper {
+  background-image: url("../images/c-esc-bg.png");
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  background-size: cover;
+  z-index: -1;
+}
+
+.landing-wrapper .does-something {
+  background-image: linear-gradient(var(--accent1-dark), var(--accent1));
+  position: absolute;
+  bottom: 50px;
+  border: var(--secondary) solid 2px;
+  border-top: white solid 2px;
+}
+
+/* games */
+
+.games-wrapper .filter-bar {
+  height: 50px;
+  background-color: var(--accent2);
+}
+
+.games-wrapper .filter-dropdown {
+  background: var(--accent1);
+}
+
+.games-wrapper .filter-dropdown Select {
+  min-width: 160px;
+}
+
+/* game card */
+.game-card-wrapper {
+  width: 220px;
+  aspect-ratio: 1;
+}
+
+.game-card {
+  aspect-ratio: 1;
+  width: 200px;
+  transition: all 0.1s ease;
+}
+
+.game-card:hover {
+  width: 220px;
+}
+
+.game-card:hover .title {
+  color: var(--accent1);
+}
+
+.asset-card {
+  /* width: min-content; */
+  max-width: 250px;
+  height: min-content;
+  border: var(--secondary) solid 1px;
+}
