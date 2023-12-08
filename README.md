@@ -37,7 +37,6 @@ CodeEscape is an indie game and asset marketplace that brings together game deve
 
 - Frontend: Vite, React
 - Backend: ASP.NET Core
-- Database: SQL (using SQL Workbench)
 
 ## Getting Started
 
